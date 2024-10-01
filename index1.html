@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rice Type Classification</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+
+      header {
+          background-color: #333;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px 40px;
+          
+      }
+
+      #logo {
+          max-height: 40px;
+      }
+
+      nav {
+          display: flex;
+      }
+
+      nav a {
+          color: white;
+          text-decoration: none;
+          padding: 10px 20px;
+      }
+
+      nav a:hover {
+          background-color: #ddd;
+          color: rgba(108, 103, 103, 0.105);
+      }
+
+      #content {
+          margin: 20px;
+      }
+
+      #content p {
+          margin-bottom: 20px;
+      }
+
+      #content img {
+          max-width: 100%;
+          width: 250;
+      }
+  </style>
+  <style>
+    /* CSS styles go here */
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    .image {
+      flex: 1;
+      padding: 30px;
+    }
+
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .description {
+      flex: 2;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+  <header>
+      <div id="logo">
+          <img src="rice1.png" alt="Logo" width="80" height="80">
+      </div>
+     <h1><center><b>RICE TYPE IMAGE CLASSIFICATION</b></center></h1> 
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="prediction.html">Prediction</a>
+          <a href="analysis.html">Analysis</a>
+      </nav>
+  </header>
+  <body style="background-image: url(background_main.jpg); background-repeat: no-repeat; background-size: cover;">
+  <div id="content">
+    <h3 style="color: #edeaea;">
+      <p>Welcome to the Rice Type Classification website. Here you can explore various types of rice, make predictions based on rice samples, and perform in-depth analysis of rice characteristics.
+        Our mission is to explore Indian rice, from aromatic Basmati to long-grain varieties.Here we  classify the rice type
+        as Basmathi, Jasmine, Karacadag, Ipsala, Arborio.We analyse the accuracy of the predicted rice type. Explore, learn, and predict with us as we delve into the fascinating world of rice.
+      </p>
+    </h3>
+      <h2 style="background-color: black; color: #eee8e8;">About Rice Classification</h2>
+      <p style="color: #eee8e8;">Rice classification is the process of categorizing different types of rice based on various factors such as grain length, color, aroma, and more. It plays a crucial role in the agriculture and food industry.</p>
+
+      <h2 style="background-color: black; color: #f6f2f2;">Explore Our Rice Types</h2>
+      <p style="color: aliceblue;">Below are some images of different rice types you can explore:</p>
+      <div class="container">
+        <div class="image" >
+          <img src="Basmathi.jpeg" alt="Your Image">
+        </div>
+        <div class="description">
+          <h2 style="color: aliceblue;"><b>BASMATHI</b></h2>
+          <p style="color: #edeaea;">
+            This is an example image and a brief description of it. You can provide information about the image, its content, and any relevant details here.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="Ipsala (1).jpg" alt="Your Image">
+        </div>
+        <div class="description">
+          <h2 style="color: aliceblue;"><b>BASMATHI</b></h2>
+          <p style="color: #edeaea;">
+            This is an example image and a brief description of it. You can provide information about the image, its content, and any relevant details here.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="Jasmine (9997).jpg" alt="Your Image">
+        </div>
+        <div class="description">
+          <h2 style="color: aliceblue;"><b>BASMATHI</b></h2>
+          <p style="color: #edeaea;">
+            This is an example image and a brief description of it. You can provide information about the image, its content, and any relevant details here.
+          </p>
+        </div>
+      </div><div class="container">
+        <div class="image">
+          <img src="Arborio.jpeg" alt="Your Image">
+        </div>
+        <div class="description">
+          <h2 style="color: aliceblue;"><b>BASMATHI</b></h2>
+          <p style="color: #edeaea;">
+            This is an example image and a brief description of it. You can provide information about the image, its content, and any relevant details here.
+          </p>
+        </div>
+      </div><div class="container">
+        <div class="image">
+          <img src="Karacadag.jpg" alt="Your Image">
+        </div>
+        <div class="description">
+          <h2 style="color: aliceblue;"><b>BASMATHI</b></h2>
+          <p style="color: #edeaea;">
+            This is an example image and a brief description of it. You can provide information about the image, its content, and any relevant details here.
+          </p>
+        </div>
+      </div>
+      <!--<img src="Basmathi.jpeg" alt="Long Grain Rice">
+      <p style="color: #ddd;">Basmathi</p>
+
+      <img src="rice2.jpg" alt="Basmati Rice">
+      <p>Basmati Rice</p>-->
+
+      <!-- Add more rice type images and descriptions as needed -->
+  </div>
+   <form action="http://localhost:5000/upload" method="POST" enctype="multipart/form-data">
+     
+</body>
+</html>
